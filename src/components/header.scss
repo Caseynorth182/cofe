@@ -1,0 +1,24 @@
+.header {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.3);
+        a {
+            font-size: 20px;
+            padding: 10px 25px;
+            color: #fff;
+        }
+    }
+    .active {
+        color: red;
+    }
+}

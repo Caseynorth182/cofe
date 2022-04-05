@@ -1,0 +1,14 @@
+.hero {
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('https://storage.picsave.pp.ua/cluster1/origin/fe1dbfab014df0218c9f211da0961baf.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    .hero-wrap {
+        /* height: 640px; */
+        color: #fff;
+    }
+}
